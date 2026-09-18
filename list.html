@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOAV 쇼핑몰 포트폴리오</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/list.css">
+    <script src="./js/header.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./js/new-product.js"></script>
+    <script src="./js/new-product-control.js" defer></script>
+    <!--제품정보-->
+
+</head>
+
+<body>
+    <!-- 데스크탑용 헤더 -->
+    <header class="pc">
+        <div class="header-top">
+            <div class="common-frame">
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="./img/logo-white.svg" alt="LOAV 쇼핑몰 로고">
+                    </a>
+                </div>
+                <div class="lnb">
+                    <ul class="user-menu">
+                        <li>
+                            <a href="#">
+                                <img src="./img/icon-search.svg" alt="검색">
+                                <span>검색</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/icon-login.svg" alt="로그인">
+                                <span>로그인</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/icon-membership.svg" alt="회원가입">
+                                <span>회원가입</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/icon-cart.svg" alt="장바구니">
+                                <span>장바구니</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/icon-mypage.svg" alt="마이페이지">
+                                <span>마이페이지</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="common-frame">
+                <ul class="gnb">
+                    <li>
+                        <a href="#">침실</a>
+                        <div class="gnb2depth">
+                            <div class="common-frame">
+                                <section>
+                                    <h4><a href="#">침대</a></h4>
+                                    <ul>
+                                        <li><a href="#">일반 침대</a></li>
+                                        <li><a href="#">모션 침대</a></li>
+                                        <li><a href="#">수납 침대</a></li>
+                                        <li><a href="#">패밀리(대형) 침대</a></li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h4><a href="#">매트리스/토퍼</a></h4>
+                                    <ul>
+                                        <li><a href="#">매트리스</a></li>
+                                        <li><a href="#">토퍼</a></li>
+                                        <li><a href="#">매트리스 커버/패드</a></li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h4><a href="#">협탁/사이드테이블</a></h4>
+                                    <ul>
+                                        <li><a href="#">협탁</a></li>
+                                        <li><a href="#">사이드테이블</a></li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h4><a href="#">화장대</a></h4>
+                                    <ul>
+                                        <li><a href="#">화장대</a></li>
+                                        <li><a href="#">화장대 의자/스툴</a></li>
+                                        <li><a href="#">거울</a></li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h4><a href="#">드레스룸/옷장</a></h4>
+                                    <ul>
+                                        <li><a href="#">옷장</a></li>
+                                        <li><a href="#">붙박이장</a></li>
+                                        <li><a href="#">드레스룸 시스템장</a></li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h4><a href="#">침구</a></h4>
+                                    <ul>
+                                        <li><a href="#">이불/차렵이불</a></li>
+                                        <li><a href="#">베개/쿠션</a></li>
+                                        <li><a href="#">침대 커버 세트</a></li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">거실</a>
+                        <div class="gnb2depth">
+                            <div class="common-frame">
+                                <section>
+                                    <h4><a href="#">소파</a></h4>
+                                    <ul>
+                                        <li><a href="#">패브릭 소파</a></li>
+                                        <li><a href="#">가죽 소파</a></li>
+                                        <li><a href="#">리클라이너/1인 소파</a></li>
+                                        <li><a href="#">코너·카우치 소파</a></li>
+                                        <li><a href="#">소파 액세서리</a></li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h4><a href="#">거실 테이블</a></h4>
+                                    <ul>
+                                        <li><a href="#">소파 테이블</a></li>
+                                        <li><a href="#">티(커피) 테이블</a></li>
+                                        <li><a href="#">멀티/사이드 테이블</a></li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h4><a href="#">거실장/수납</a></h4>
+                                    <ul>
+                                        <li><a href="#">거실장·TV장</a></li>
+                                        <li><a href="#">책장·장식장</a></li>
+                                        <li><a href="#">수납장 액세서리</a></li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h4><a href="#">러그/패브릭</a></h4>
+                                    <ul>
+                                        <li><a href="#">러그</a></li>
+                                        <li><a href="#">쿠션/쿠션커버</a></li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">주방/다이닝</a>
+                        <div class="gnb2depth">
+                            <div class="common-frame">
+                                <section>
+                                    <h4><a href="#">식탁</a></h4>
+                                    <ul>
+                                        <li><a href="#">2인용 식탁</a></li>
+                                        <li><a href="#">4인용 식탁</a></li>
+                                        <li><a href="#">6인용 식탁</a></li>
+                                        <li><a href="#">식탁 세트(테이블+체어)</a></li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h4><a href="#">식탁 의자</a></h4>
+                                    <ul>
+                                        <li><a href="#">일반 체어</a></li>
+                                        <li><a href="#">벤치</a></li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h4><a href="#">주방 수납</a></h4>
+                                    <ul>
+                                        <li><a href="#">수납장</a></li>
+                                        <li><a href="#">홈바/콘솔</a></li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h4><a href="#">테이블웨어</a></h4>
+                                    <ul>
+                                        <li><a href="#">커트러리</a></li>
+                                        <li><a href="#">접시/식기</a></li>
+                                        <li><a href="#">홈 프래그런스</a></li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">서재/워크룸</a>
+                        <div class="gnb2depth">
+                            <div class="common-frame">
+                                <section>
+                                    <h4><a href="#">책상</a></h4>
+                                    <ul>
+                                        <li><a href="#">일반 책상</a></li>
+                                        <li><a href="#">모션(높이조절) 데스크</a></li>
+                                        <li><a href="#">홈오피스 세트</a></li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h4><a href="#">책장</a></h4>
+                                    <ul>
+                                        <li><a href="#">책장</a></li>
+                                        <li><a href="#">장식장</a></li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h4><a href="#">체어</a></h4>
+                                    <ul>
+                                        <li><a href="#">태스크 체어</a></li>
+                                        <li><a href="#">프리미엄 체어</a></li>
+                                        <li><a href="#">보조 의자</a></li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h4><a href="#">수납</a></h4>
+                                    <ul>
+                                        <li><a href="#">서랍장</a></li>
+                                        <li><a href="#">수납 액세서리</a></li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">조명</a>
+                        <div class="gnb2depth">
+                            <div class="common-frame">
+                                <section>
+                                    <h4><a href="#">실내 조명</a></h4>
+                                    <ul>
+                                        <li><a href="#">펜던트 조명</a></li>
+                                        <li><a href="#">테이블 조명</a></li>
+                                        <li><a href="#">플로어 조명</a></li>
+                                        <li><a href="#">포터블 조명</a></li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h4><a href="#">액세서리</a></h4>
+                                    <ul>
+                                        <li><a href="#">조명 액세서리</a></li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">홈데코/소품</a>
+                        <div class="gnb2depth">
+                            <div class="common-frame">
+                                <section>
+                                    <h4><a href="#">데코 오브제</a></h4>
+                                    <ul>
+                                        <li><a href="#">화병/화병 소품</a></li>
+                                        <li><a href="#">액자/벽시계</a></li>
+                                        <li><a href="#">거울</a></li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h4><a href="#">패브릭 소품</a></h4>
+                                    <ul>
+                                        <li><a href="#">쿠션/쿠션커버</a></li>
+                                        <li><a href="#">러그</a></li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h4><a href="#">수납 소품</a></h4>
+                                    <ul>
+                                        <li><a href="#">바스켓/트레이</a></li>
+                                        <li><a href="#">트롤리</a></li>
+                                    </ul>
+                                </section>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">매거진</a>
+                        <div class="gnb2depth">
+                            <div class="common-frame">
+                                <section>
+                                    <h4><a href="#">브랜드 스토리</a></h4>
+                                    <ul>
+                                        <li><a href="#">로아브 이야기</a></li>
+                                        <li><a href="#">소재/철학</a></li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h4><a href="#">공간 스타일링</a></h4>
+                                    <ul>
+                                        <li><a href="#">인테리어 팁</a></li>
+                                        <li><a href="#">공간별 코디 제안</a></li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h4><a href="#">인터뷰/컬래버</a></h4>
+                                    <ul>
+                                        <li><a href="#">디자이너 인터뷰</a></li>
+                                        <li><a href="#">브랜드 컬래버레이션</a></li>
+                                    </ul>
+                                </section>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">기획전/이벤트</a>
+                        <div class="gnb2depth">
+                            <div class="common-frame">
+                                <section>
+                                    <h4><a href="#">신제품</a></h4>
+                                    <ul>
+                                        <li><a href="#">신제품 모아보기</a></li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h4><a href="#">시즌 프로모션</a></h4>
+                                    <ul>
+                                        <li><a href="#">시즌 할인/기획전</a></li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h4><a href="#">아울렛</a></h4>
+                                    <ul>
+                                        <li><a href="#">전시품/리퍼 특가</a></li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- 패드 / 모바일용 헤더 -->
+    <div class="smart-heder">
+        <div class="common-frame">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./img/logo-white.svg" alt="LOAV로고 메인페이지 이동">
+                </a>
+            </div>
+            <div class="btn-menu">
+                <a href="#">
+                    <img src="./img/icon-menu.svg" alt="전체열기메뉴">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 패드/ 모바일용 전체 메가메뉴 -->
+    <div class="smart-overlay-menu">
+        <!--메뉴닫기 : s-->
+        <div class="smart-overlay-menu-1">
+            <div class="common-frame">
+                <div class="logo">
+                    <a href="#">
+                        <img src="./img/logo-white.svg" alt="LOAV로고 메인페이지 이동">
+                    </a>
+                </div>
+                <div class="btn-menu-close">
+                    <a href="#">
+                        <img src="./img/icon-close.svg" alt="전체열기메뉴">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="smart-overlay-menu-2">
+            <div class="common-frame">
+                <ul class="user-menu">
+                    <li>
+                        <a href="#">
+                            <img src="./img/icon-search.svg" alt="검색">
+                            <span>검색</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/icon-login.svg" alt="로그인">
+                            <span>로그인</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/icon-membership.svg" alt="회원가입">
+                            <span>회원가입</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/icon-cart.svg" alt="장바구니">
+                            <span>장바구니</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/icon-mypage.svg" alt="마이페이지">
+                            <span>마이페이지</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="smart-overlay-menu-top">
+            <div class="common-frame">
+                <ul class="gnb-smart">
+                    <li class="on"><a href="#">침실</a></li>
+                    <li><a href="#">거실</a></li>
+                    <li><a href="#">주방/다이닝</a></li>
+                    <li><a href="#">서재/워크룸</a></li>
+                    <li><a href="#">조명</a></li>
+                    <li><a href="#">홈데코/소품</a></li>
+                    <li> <a href="#">매거진</a></li>
+                    <li><a href="#">기획전/이벤트</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="smart-overlay-menu-bottom">
+            <div class="gnb2depth-smart on">
+                <div class="common-frame">
+                    <section>
+                        <h4><a href="#">침대</a></h4>
+                        <ul>
+                            <li><a href="#">일반 침대</a></li>
+                            <li><a href="#">모션 침대</a></li>
+                            <li><a href="#">수납 침대</a></li>
+                            <li><a href="#">패밀리(대형) 침대</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4><a href="#">매트리스/토퍼</a></h4>
+                        <ul>
+                            <li><a href="#">매트리스</a></li>
+                            <li><a href="#">토퍼</a></li>
+                            <li><a href="#">매트리스 커버/패드</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4><a href="#">협탁/사이드테이블</a></h4>
+                        <ul>
+                            <li><a href="#">협탁</a></li>
+                            <li><a href="#">사이드테이블</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4><a href="#">화장대</a></h4>
+                        <ul>
+                            <li><a href="#">화장대</a></li>
+                            <li><a href="#">화장대 의자/스툴</a></li>
+                            <li><a href="#">거울</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4><a href="#">드레스룸/옷장</a></h4>
+                        <ul>
+                            <li><a href="#">옷장</a></li>
+                            <li><a href="#">붙박이장</a></li>
+                            <li><a href="#">드레스룸 시스템장</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4><a href="#">침구</a></h4>
+                        <ul>
+                            <li><a href="#">이불/차렵이불</a></li>
+                            <li><a href="#">베개/쿠션</a></li>
+                            <li><a href="#">침대 커버 세트</a></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            <div class="gnb2depth-smart">
+                <div class="common-frame">
+                    <section>
+                        <h4><a href="#">소파</a></h4>
+                        <ul>
+                            <li><a href="#">패브릭 소파</a></li>
+                            <li><a href="#">가죽 소파</a></li>
+                            <li><a href="#">리클라이너/1인 소파</a></li>
+                            <li><a href="#">코너·카우치 소파</a></li>
+                            <li><a href="#">소파 액세서리</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4><a href="#">거실 테이블</a></h4>
+                        <ul>
+                            <li><a href="#">소파 테이블</a></li>
+                            <li><a href="#">티(커피) 테이블</a></li>
+                            <li><a href="#">멀티/사이드 테이블</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4><a href="#">거실장/수납</a></h4>
+                        <ul>
+                            <li><a href="#">거실장·TV장</a></li>
+                            <li><a href="#">책장·장식장</a></li>
+                            <li><a href="#">수납장 액세서리</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4><a href="#">러그/패브릭</a></h4>
+                        <ul>
+                            <li><a href="#">러그</a></li>
+                            <li><a href="#">쿠션/쿠션커버</a></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            <div class="gnb2depth-smart">
+                <div class="common-frame">
+                    <section>
+                        <h4><a href="#">식탁</a></h4>
+                        <ul>
+                            <li><a href="#">2인용 식탁</a></li>
+                            <li><a href="#">4인용 식탁</a></li>
+                            <li><a href="#">6인용 식탁</a></li>
+                            <li><a href="#">식탁 세트(테이블+체어)</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4><a href="#">식탁 의자</a></h4>
+                        <ul>
+                            <li><a href="#">일반 체어</a></li>
+                            <li><a href="#">벤치</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4><a href="#">주방 수납</a></h4>
+                        <ul>
+                            <li><a href="#">수납장</a></li>
+                            <li><a href="#">홈바/콘솔</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4><a href="#">테이블웨어</a></h4>
+                        <ul>
+                            <li><a href="#">커트러리</a></li>
+                            <li><a href="#">접시/식기</a></li>
+                            <li><a href="#">홈 프래그런스</a></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            <div class="gnb2depth-smart">
+                <div class="common-frame">
+                    <section>
+                        <h4><a href="#">책상</a></h4>
+                        <ul>
+                            <li><a href="#">일반 책상</a></li>
+                            <li><a href="#">모션(높이조절) 데스크</a></li>
+                            <li><a href="#">홈오피스 세트</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4><a href="#">책장</a></h4>
+                        <ul>
+                            <li><a href="#">책장</a></li>
+                            <li><a href="#">장식장</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4><a href="#">체어</a></h4>
+                        <ul>
+                            <li><a href="#">태스크 체어</a></li>
+                            <li><a href="#">프리미엄 체어</a></li>
+                            <li><a href="#">보조 의자</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4><a href="#">수납</a></h4>
+                        <ul>
+                            <li><a href="#">서랍장</a></li>
+                            <li><a href="#">수납 액세서리</a></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            <div class="gnb2depth-smart">
+                <div class="common-frame">
+                    <section>
+                        <h4><a href="#">실내 조명</a></h4>
+                        <ul>
+                            <li><a href="#">펜던트 조명</a></li>
+                            <li><a href="#">테이블 조명</a></li>
+                            <li><a href="#">플로어 조명</a></li>
+                            <li><a href="#">포터블 조명</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4><a href="#">액세서리</a></h4>
+                        <ul>
+                            <li><a href="#">조명 액세서리</a></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            <div class="gnb2depth-smart">
+                <div class="common-frame">
+                    <section>
+                        <h4><a href="#">데코 오브제</a></h4>
+                        <ul>
+                            <li><a href="#">화병/화병 소품</a></li>
+                            <li><a href="#">액자/벽시계</a></li>
+                            <li><a href="#">거울</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4><a href="#">패브릭 소품</a></h4>
+                        <ul>
+                            <li><a href="#">쿠션/쿠션커버</a></li>
+                            <li><a href="#">러그</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4><a href="#">수납 소품</a></h4>
+                        <ul>
+                            <li><a href="#">바스켓/트레이</a></li>
+                            <li><a href="#">트롤리</a></li>
+                        </ul>
+                    </section>
+
+                </div>
+            </div>
+            <div class="gnb2depth-smart">
+                <div class="common-frame">
+                    <section>
+                        <h4><a href="#">브랜드 스토리</a></h4>
+                        <ul>
+                            <li><a href="#">로아브 이야기</a></li>
+                            <li><a href="#">소재/철학</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4><a href="#">공간 스타일링</a></h4>
+                        <ul>
+                            <li><a href="#">인테리어 팁</a></li>
+                            <li><a href="#">공간별 코디 제안</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4><a href="#">인터뷰/컬래버</a></h4>
+                        <ul>
+                            <li><a href="#">디자이너 인터뷰</a></li>
+                            <li><a href="#">브랜드 컬래버레이션</a></li>
+                        </ul>
+                    </section>
+
+                </div>
+            </div>
+            <div class="gnb2depth-smart">
+                <div class="common-frame">
+                    <section>
+                        <h4><a href="#">신제품</a></h4>
+                        <ul>
+                            <li><a href="#">신제품 모아보기</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4><a href="#">시즌 프로모션</a></h4>
+                        <ul>
+                            <li><a href="#">시즌 할인/기획전</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4><a href="#">아울렛</a></h4>
+                        <ul>
+                            <li><a href="#">전시품/리퍼 특가</a></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <main>
+        <div class="hero-banner">
+            <a href="#">
+                <picture>
+                    <source media="(max-width:768px)" srcset="./img/list-mo.jpg">
+                    <source media="(max-width:1024px)" srcset="./img/list-pad.jpg">
+                    <source media="(min-width:1600px)" srcset="./img/list-pc.jpg">
+                    <img src="./img/list-pc.jpg" alt="상품리스트 배너 이미지">
+                </picture>
+            </a>
+        </div>
+
+        <section class="con1">
+            <div class="common-frame">
+                <div class="title">
+                    <h1>NEW ARRIVAL</h1>
+                    <span></span>
+                    <p>일상에 자연스럽게 스며드는 새로운 가구</p>
+                </div>                
+
+                <ul class="new-product grid-list">
+                    <li>
+                        <a href="#">
+                            <figure>
+                                <img src="./img/list-n01.jpg" alt="제품정보">
+                            </figure>
+                            <div class="sale-txt">
+                                <h4 class="title-1">제품명이 들어감</h4>
+                                <p class="desc-1">제품설명이 길게 들어갑니다.</p>
+                                <div class="pay-frame">
+                                    <div class="pay-original">
+                                        <span>100,000</span>원
+                                    </div>
+                                    <div class="pay-discount">
+                                        <div class="discount">30%</div>
+                                        <div class="pay"><b>70,000</b>원</div>
+                                    </div>
+                                </div>
+                                <span class="like-badge noab"><img src="./img/icon-heart_off.svg" alt="좋아요하트">87</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </section>
+
+    </main>
+    <footer class="pc pad">
+        <div class="commom-frame">
+            <div class="info">
+                <div class="fmenu">
+                    <div class="logo"><img src="./img/logo-gray.svg" alt="loav로고"></div>
+
+                    <dl>
+                        <dt>ABOUT</dt>
+                        <dd><a href="#">회사소개</a></dd>
+                        <dd><a href="#">매장안내</a></dd>
+                        <dd><a href="#">인재채용</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>SUPPORT</dt>
+                        <dd><a href="#">고객지원</a></dd>
+                        <dd><a href="#">서비스센터</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>INFO</dt>
+                        <dd><a href="#">이용약관</a></dd>
+                        <dd><a href="#">개인정보 처리방침</a></dd>
+                        <dd><a href="#">윤리신고센터</a></dd>
+                    </dl>
+                </div>
+                <div class="information">
+                    <ul>
+                        <li>상호명 : LOAV Co., Ltd.</li>
+                        <li class="fline"></li>
+                        <li>대표이사 : 윤희정</li>
+                        <li class="fline"></li>
+                        <li>주소 : 서울특별시 강남구 포트폴리오 214, LOAV Studio 8F</li>
+                    </ul>
+                    <ul>
+                        <li>사업자등록번호 : 214-86-48321</li>
+                        <li class="fline"></li>
+                        <li>통신판매업신고 : 2026-서울포트폴리오-08425</li>
+                        <li class="fline"></li>
+                        <li>개인정보관리책임자 : 윤로아브</li>
+                    </ul>
+                    <ul>
+                        <li>호스팅 서비스사업자 : LOAV</li>
+                        <li class="fline"></li>
+                        <li>대표메일 ： portfolio@loavhome.com</li>
+                    </ul>
+                    <ul>
+                        <li>© 2026 LOAV. All Rights Reserved. 취업용도의 포트폴리오 입니다.</li>
+                    </ul>
+                </div>
+                <div class="sns">
+                    <figure>
+                        <img src="./img/sns-instgram.svg" alt="인스타그램">
+                    </figure>
+                    <figure>
+                        <img src="./img/sns-facebook.svg" alt="페이스북">
+                    </figure>
+                    <figure>
+                        <img src="./img/sns-blog.svg" alt="블로그">
+                    </figure>
+                </div>
+            </div>
+            <div class="customer">
+                <div class="cutitle">
+                    고객센터
+                </div>
+                <div class="cu-tel">
+                    <div class="tel">
+                        1588-4628
+                    </div>
+                    <div class="cutxt">
+                        평일 08:30-17:30 (주말 및 공휴일 휴무)
+                    </div>
+                </div>
+                <div class="fbox-btn">
+                    <div class="btn-ai">
+                        <span>AI 챗봇 문의</span>
+                        <img src="./img/icon-kakao.svg" alt="AI챗봇 카카오 문의">
+                    </div>
+                    <div class="loav-center">
+                        로아브 서비스 센터
+                    </div>
+                </div>
+                <div class="app">
+                    <div class="qr">
+                        <img src="./img/qrccode.png" alt="앱다운로드">
+                    </div>
+                    <span>앱다운로드</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="mo">
+        <div class="commom-frame">
+            <div class="fmenu">
+                <div class="logo"><img src="./img/logo-gray.svg" alt="loav로고"></div>
+                <div class="company">회사소개</div>
+            </div>
+            <div class="sns">
+                <figure>
+                    <img src="./img/sns-instgram.svg" alt="인스타그램">
+                </figure>
+                <figure>
+                    <img src="./img/sns-facebook.svg" alt="페이스북">
+                </figure>
+                <figure>
+                    <img src="./img/sns-blog.svg" alt="블로그">
+                </figure>
+            </div>
+            <div class="customer">
+                <div class="cutitle">
+                    고객센터
+                </div>
+                <div class="cu-tel">
+                    <div class="tel">
+                        1588-4628
+                    </div>
+                    <div class="cutxt">
+                        평일 08:30-17:30 (주말 및 공휴일 휴무)
+                    </div>
+                    <div class="fbox-btn">
+                        <div class="btn-ai">
+                            <span>AI 챗봇 문의</span>
+                            <img src="./img/icon-kakao.svg" alt="AI챗봇 카카오 문의">
+                        </div>
+                        <div class="loav-center">
+                            로아브 서비스 센터
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <div class="information">
+                    <ul>
+                        <li>상호명 : LOAV Co., Ltd.</li>
+                        <li class="fline"></li>
+                        <li>대표이사 : 윤희정</li>
+                        <li class="fline"></li>
+                        <li>주소 : 서울특별시 강남구 포트폴리오 214, LOAV Studio 8F</li>
+                    </ul>
+                    <ul>
+                        <li>사업자등록번호 : 214-86-48321</li>
+                        <li class="fline"></li>
+                        <li>통신판매업신고 : 2026-서울포트폴리오-08425</li>
+                        <li class="fline"></li>
+                        <li>개인정보관리책임자 : 윤로아브</li>
+                    </ul>
+                    <ul>
+                        <li>호스팅 서비스사업자 : LOAV</li>
+                        <li class="fline"></li>
+                        <li>대표메일 ： portfolio@loavhome.com</li>
+                    </ul>
+                    <ul>
+                        <li>© 2026 LOAV. All Rights Reserved. 취업용도의 포트폴리오 입니다.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
