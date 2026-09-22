@@ -70,6 +70,7 @@ html {
     font-family: 'Pretendard', sans-serif;
     font-weight: var(--font-weight-normal);
     color: var(--gray-800);
+    scroll-behavior: smooth;
 }
 .common-frame {
     padding: 0 var(--space-2x-large);
@@ -160,6 +161,10 @@ main>section {
     flex-direction: column;
     gap:.5rem;
 }
+
+
+
+
 
 .pc{display: block;}
 
